@@ -1,0 +1,128 @@
+:root {
+  /* default theme color */
+  /* can be overrided by uses `themeConfig` option */
+  --slidev-theme-primary: #5d8392;
+}
+
+.slidev-layout.cover,
+.slidev-layout.intro {
+  @apply h-full grid;
+
+  h1 {
+    @apply text-6xl leading-20;
+  }
+
+  h1 + p {
+    @apply -mt-2 opacity-50 mb-4;
+  }
+
+  p + h2,
+  ul + h2,
+  table + h2 {
+    @apply mt-10;
+  }
+}
+
+.slidev-layout.cover img[alt~="logo"] {
+  position: absolute;
+  bottom: 33px;
+  left: 36%;
+  width: 12%;
+}
+
+.slidev-layout.cover {
+  color: #000000;
+  background-color: #FFE100;
+}
+
+.slidev-layout.cover h1 {
+  font-weight: bolder;
+  color: #000000;
+}
+
+.slidev-layout.cover p {
+  font-weight: bold;
+  font-style: italic;
+  font-size: larger;
+}
+
+h1 {
+  color: #00AEEF;
+}
+
+.slidev-layout.lead {
+  text-align: center;
+  padding-top: 25%;
+  font-weight: bolder;
+  font-size: 200%;
+  color: white;
+  background-color: #00AEEF;
+}
+
+.slidev-layout.lead h1 {
+  color: white;
+}
+
+.slidev-layout.lead p {
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 0.75em;
+}
+
+font-vienna {
+  font-family: 'Big Caslon';
+  font-size: 35px;
+  position: absolute;
+  bottom: 23px;
+  right: 36%;
+}
+
+.logo {
+  position: absolute;
+  width: 2.5em;
+  top: 2em;
+  right: 1.5em;
+}
+
+.footer {
+  position: absolute;
+  color: gray;
+  width: 33.3%; 
+  bottom: 2em;
+}
+
+.footer-left {
+  text-align: left; 
+  left: 3.5em;
+}
+.footer-center {
+  text-align: center;
+  left: 22em;
+}
+.footer-right {
+  text-align: right;
+  display: flex;
+  background: lightgray; 
+  border-radius: 70px;
+  right: 40px;
+  color: white;
+  height: 0.01em;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  text-shadow: none;
+  width: 0.01em;
+}
+
+.slidev-layout {
+  color: gray
+}
+
+see {
+  position: absolute;
+  bottom: 7.5em;
+  color: lightgray;    
+  height: 20px;
+  font-size: 0.54em;
+}
+
