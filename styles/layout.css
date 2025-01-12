@@ -32,18 +32,19 @@
 
 .slidev-layout.cover {
   color: #000000;
-  background-color: #FFE100;
+  background-color: #FEFEF1;
 }
 
 .slidev-layout.cover h1 {
   font-weight: bolder;
-  color: #000000;
+  color: #5F5F5F;
 }
 
 .slidev-layout.cover p {
   font-weight: bold;
   font-style: italic;
   font-size: larger;
+  color: #9F9F9F;
 }
 
 h1 {
@@ -79,9 +80,9 @@ font-vienna {
 
 .logo {
   position: absolute;
-  width: 2.5em;
-  top: 2em;
-  right: 1.5em;
+  width: 2.1em;
+  top: 2.1em;
+  right: 2.5em;
 }
 
 .footer {
@@ -104,7 +105,7 @@ font-vienna {
   display: flex;
   background: lightgray; 
   border-radius: 70px;
-  right: 40px;
+  right: 55px;
   color: white;
   height: 0.01em;
   align-items: center;
