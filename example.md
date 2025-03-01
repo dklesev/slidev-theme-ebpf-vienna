@@ -1,6 +1,6 @@
 ---
 theme: ./
-date: 05.03.2025
+date: dd.mm.yyyy
 addons:
   - slidev-component-spotlight
   - slidev-addon-qrcode
