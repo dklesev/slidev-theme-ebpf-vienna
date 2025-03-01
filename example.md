@@ -1,6 +1,9 @@
 ---
 theme: ./
 date: 05.03.2025
+addons:
+  - slidev-component-spotlight
+  - slidev-addon-qrcode
 ---
 
 # Slidev Theme
@@ -45,23 +48,11 @@ layout: lead
 
 ---
 
-# Hello eBPF
+# Hello eBPF | Example
 
 *(simple ebpf program)*
 
-```c
-#include <vmlinux.h>
-#include <bpf/bpf_helpers.h>
-
-SEC("tracepoint/syscalls/sys_enter_execve")
-int bpf_prog(void *ctx)
-{
-  bpf_printk("Hello eBPF!");
-  return 0;
-};
-
-char LICENSE[] SEC("license") = "GPL";
-```
+<<< @/snippets/example.c c {|4|4,7|}{lines: true}
 
 ---
 layout: center
@@ -71,3 +62,25 @@ class: "text-center"
 # Learn More
 
 [eBPF](https://ebpf.io) / [meetup](https://www.meetup.com/ebpf-vienna/)
+
+---
+layout: empty
+---
+
+<div class="flex flex-col items-center">
+<br><br><br>
+
+<QRCode
+    :width="300"
+    :height="300"
+    type="svg"
+    data="https://www.meetup.com/ebpf-vienna/"
+    :margin="10"
+    :imageOptions="{ margin: 10 }"
+    :dotsOptions="{ type: 'extra-rounded', color: '#00AEEF' }"
+    :cornersSquareOptions="{ type: 'dot', color: '#000000' }"
+    :cornersDotOptions="{ type: 'dot', color: '#000000' }"
+    image="/ebpf-icon.png"
+/>
+
+</div>

@@ -4392,6 +4392,18 @@ punycode.js@^2.3.1:
   resolved "https://registry.yarnpkg.com/punycode.js/-/punycode.js-2.3.1.tgz#6b53e56ad75588234e79f4affa90972c7dd8cdb7"
   integrity sha512-uxFIHU0YlHYhDQtV4R9J6a52SLx28BCjT+4ieh7IGbgwVJWO+km431c4yRlREUAsAmt/uMjQUyQHNEPf0M39CA==
 
+qr-code-styling@^1.6.0-rc.1:
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/qr-code-styling/-/qr-code-styling-1.9.1.tgz#1fc27ccb6d42051225f5f18ab9b99307ad62ef8b"
+  integrity sha512-T/VxQchuZkQwYhIcyyMUmtXHPeDT6lJBYHfqGD5CBDyIjswxS7JZKf443q+SXO1K/9SUswi6JpXEUQ5AoMCpyg==
+  dependencies:
+    qrcode-generator "^1.4.4"
+
+qrcode-generator@^1.4.4:
+  version "1.4.4"
+  resolved "https://registry.yarnpkg.com/qrcode-generator/-/qrcode-generator-1.4.4.tgz#63f771224854759329a99048806a53ed278740e7"
+  integrity sha512-HM7yY8O2ilqhmULxGMpcHSF1EhJJ9yBj8gvDEuZ6M+KGJ0YY2hKpnXvRD+hZPLrDVck3ExIGhmPtSdcjC+guuw==
+
 queue-microtask@^1.2.2:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
@@ -4662,6 +4674,20 @@ slash@^5.1.0:
   resolved "https://registry.yarnpkg.com/slash/-/slash-5.1.0.tgz#be3adddcdf09ac38eebe8dcdc7b1a57a75b095ce"
   integrity sha512-ZA6oR3T/pEyuqwMgAKT0/hAv8oAXckzbkmR0UkUosQ+Mc4RxGoJkRmwHgHufaenlyAgE1Mxgpdcrf75y6XcnDg==
 
+slidev-addon-qrcode@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/slidev-addon-qrcode/-/slidev-addon-qrcode-1.0.2.tgz#e9a64a7b4fe665d55c7fa2a0eb0dffaa3bb0deef"
+  integrity sha512-vYjfu8KHnOaiijWaQFc5LaaglDIISGZ5Bx4m0RbmDlPiIZDseEoJX6O3Lxh4LaaCdo5JpMK/3o6CcNZtcTqpLg==
+  dependencies:
+    qr-code-styling "^1.6.0-rc.1"
+
+slidev-component-spotlight@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/slidev-component-spotlight/-/slidev-component-spotlight-1.1.0.tgz#8e0acb4244f535637d8c5d7d77ca56b8823519d4"
+  integrity sha512-1REEjkrbleSpg2DsjLCFCjhskxIV6HrI/nFI2f02byQ/iPWUYoTKIoUKUEWetLhk8xzQXbF9K0sNB/H4qJ9PKg==
+  dependencies:
+    spotlight-vue "^0.5.1"
+
 source-map-js@^1.0.1, source-map-js@^1.2.0, source-map-js@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.2.1.tgz#1ce5650fddd87abc099eda37dcff024c2667ae46"
@@ -4671,6 +4697,11 @@ space-separated-tokens@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/space-separated-tokens/-/space-separated-tokens-2.0.2.tgz#1ecd9d2350a3844572c3f4a312bceb018348859f"
   integrity sha512-PEGlAwrG8yXGXRjW32fGbg66JAlOAwbObuqVoJpv/mRgoWDQfgH1wDPvtzWyUSNAXBGSk8h755YDbbcEy3SH2Q==
+
+spotlight-vue@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/spotlight-vue/-/spotlight-vue-0.5.1.tgz#52d852eacf05cf42de3fdd690a17aa8b3b1cb52e"
+  integrity sha512-B3+hFBbSjcUjOTYVqUkvU+zN7q1LdAogkFhs6/8+j7PepYOue7a7t9hIEwUtCcaLkcPgyKajryH7oKE8PiFshg==
 
 sprintf-js@~1.0.2:
   version "1.0.3"

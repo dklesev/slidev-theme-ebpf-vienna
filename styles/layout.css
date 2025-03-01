@@ -23,6 +23,10 @@
   }
 }
 
+.transparent {
+  opacity: 0.5;
+}
+
 .slidev-layout.cover img[alt~="logo"] {
   position: absolute;
   bottom: 33px;
@@ -121,9 +125,8 @@ font-vienna {
 
 see {
   position: absolute;
-  bottom: 7.5em;
+  bottom: 6em;
   color: lightgray;    
   height: 20px;
   font-size: 0.54em;
 }
-
