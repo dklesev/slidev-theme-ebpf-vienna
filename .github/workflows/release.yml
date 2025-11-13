@@ -18,7 +18,6 @@ jobs:
         id: release
         with:
           release-type: node
-          package-name: '@dklesev/slidev-theme-ebpf-vienna'
 
       - uses: actions/checkout@v4
         if: ${{ steps.release.outputs.release_created }}
@@ -43,4 +42,4 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
         run: pnpm publish --no-git-checks
         env:
-          NODE_AUTH_TOKEN: ${{ github.token }}
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
