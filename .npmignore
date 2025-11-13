@@ -1,0 +1,38 @@
+# Development files
+node_modules
+example.md
+example-export.pdf
+screenshots/
+.vscode/
+.DS_Store
+.idea/
+
+# Build artifacts
+dist
+*.local
+.vite-inspect
+.remote-assets
+components.d.ts
+
+# Test files
+*.test.ts
+*.spec.ts
+__tests__/
+
+# Git files
+.git
+.gitignore
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories
+.vscode
+.idea
+*.swp
+*.swo
+*~

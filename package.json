@@ -1,16 +1,46 @@
 {
-  "name": "slidev-theme-ebpf-vienna",
+  "name": "@dklesev/slidev-theme-ebpf-vienna",
   "version": "0.0.1",
+  "description": "A Slidev theme for eBPF Vienna meetup presentations",
   "type": "module",
   "keywords": [
     "slidev-theme",
     "slidev",
     "ebpf",
-    "vienna"
+    "vienna",
+    "presentation",
+    "slides"
   ],
-  "engines": {
-    "node": ">=18.0.0"
+  "license": "MIT",
+  "author": {
+    "name": "Dimitrij Klesev",
+    "url": "https://github.com/dklesev"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dklesev/slidev-theme-ebpf-vienna.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dklesev/slidev-theme-ebpf-vienna/issues"
+  },
+  "homepage": "https://github.com/dklesev/slidev-theme-ebpf-vienna#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "engines": {
+    "node": ">=24.4.0"
+  },
+  "files": [
+    "layouts",
+    "components",
+    "styles",
+    "setup",
+    "public",
+    "global-top.vue",
+    "global-bottom.vue",
+    "package.json",
+    "README.md"
+  ],
   "scripts": {
     "build": "slidev build example.md",
     "dev": "slidev example.md --open",
@@ -18,13 +48,13 @@
     "screenshot": "slidev export example.md --format png"
   },
   "dependencies": {
-    "@slidev/types": "^0.51.0-beta.4",
+    "@slidev/types": "^52.8.0",
     "slidev-addon-qrcode": "^1.0.2",
     "slidev-component-spotlight": "^1.1.0"
   },
   "devDependencies": {
-    "@slidev/cli": "^0.51.0-beta.4",
-    "playwright-chromium": "^1.50.1"
+    "@slidev/cli": "^52.8.0",
+    "playwright-chromium": "^1.56.1"
   },
   "slidev": {
     "colorSchema": "both",

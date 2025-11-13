@@ -1,8 +1,49 @@
+# Dependencies
 node_modules
+
+# OS files
 .DS_Store
+Thumbs.db
+
+# Build output
 dist
 *.local
+
+# Vite
 .vite-inspect
+
+# Slidev
 .remote-assets
-.idea/
 components.d.ts
+
+# Editor directories and files
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.swp
+*.swo
+*~
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Testing
+coverage/
+
+# Temporary files
+*.tmp
+.cache/

@@ -38,7 +38,7 @@ backgroundSize: 53%
 
 # eBPF
 
-<see>See: https://www.brendangregg.com/ebpf.html</see>
+<span class="see">See: https://www.brendangregg.com/ebpf.html</span>
 
 ---
 layout: lead
