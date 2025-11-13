@@ -9,6 +9,11 @@ permissions:
   contents: write
   pull-requests: write
   packages: write
+  issues: write
+
+concurrency:
+  group: release-${{ github.ref_name }}
+  cancel-in-progress: true
 
 jobs:
   release-please:
@@ -17,7 +22,8 @@ jobs:
       - uses: googleapis/release-please-action@v4
         id: release
         with:
-          release-type: node
+          token: ${{ github.token }}
+          target-branch: ${{ github.ref_name }}
 
       - uses: actions/checkout@v4
         if: ${{ steps.release.outputs.release_created }}
@@ -42,4 +48,4 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
         run: pnpm publish --no-git-checks
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ github.token }}
