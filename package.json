@@ -31,6 +31,7 @@
     "node": ">=24.4.0"
   },
   "files": [
+    "screenshots",
     "layouts",
     "components",
     "styles",
