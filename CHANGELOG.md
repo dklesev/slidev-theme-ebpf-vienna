@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.5](https://github.com/dklesev/slidev-theme-ebpf-vienna/compare/v0.0.4...v0.0.5) (2025-11-13)
+
+
+### Bug Fixes
+
+* update screenshot paths in README and remove screenshots directory from package.json ([98fa1e1](https://github.com/dklesev/slidev-theme-ebpf-vienna/commit/98fa1e1e6d51d01732c97efc881bd5c0790f3d69))
+
 ## [0.0.4](https://github.com/dklesev/slidev-theme-ebpf-vienna/compare/v0.0.3...v0.0.4) (2025-11-13)
 
 
