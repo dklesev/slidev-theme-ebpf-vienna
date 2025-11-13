@@ -2,7 +2,6 @@
 node_modules
 example.md
 example-export.pdf
-screenshots/
 .vscode/
 .DS_Store
 .idea/
