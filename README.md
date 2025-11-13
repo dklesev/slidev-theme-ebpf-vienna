@@ -68,7 +68,7 @@ layout: cover
 optional subtitle
 ```
 
-![Cover Layout](./screenshots/1.png)
+![Cover Layout](https://raw.githubusercontent.com/dklesev/slidev-theme-ebpf-vienna/main/screenshots/1.png)
 
 ### `lead`
 
@@ -82,7 +82,7 @@ layout: lead
 # Section Title
 ```
 
-![Lead Layout](./screenshots/2.png)
+![Lead Layout](https://raw.githubusercontent.com/dklesev/slidev-theme-ebpf-vienna/main/screenshots/2.png)
 
 ### `intro`
 
@@ -101,7 +101,7 @@ Your intro content
 
 Standard slide layout for regular content.
 
-![Default Layout](./screenshots/5.png)
+![Default Layout](https://raw.githubusercontent.com/dklesev/slidev-theme-ebpf-vienna/main/screenshots/5.png)
 
 ### `empty`
 
@@ -117,7 +117,7 @@ layout: empty
 </div>
 ```
 
-![Empty Layout](./screenshots/7.png)
+![Empty Layout](https://raw.githubusercontent.com/dklesev/slidev-theme-ebpf-vienna/main/screenshots/7.png)
 
 ## Included Addons
 
