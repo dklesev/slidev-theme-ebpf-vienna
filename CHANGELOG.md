@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.6](https://github.com/dklesev/slidev-theme-ebpf-vienna/compare/v0.0.5...v0.0.6) (2025-11-16)
+
+
+### Code Refactoring
+
+* simplify footer and logo visibility logic by removing computed properties ([b733ad6](https://github.com/dklesev/slidev-theme-ebpf-vienna/commit/b733ad61521d623430e145c7ed58cebfd461ec8b))
+
 ## [0.0.5](https://github.com/dklesev/slidev-theme-ebpf-vienna/compare/v0.0.4...v0.0.5) (2025-11-13)
 
 
