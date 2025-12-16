@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.0.8](https://github.com/dklesev/slidev-theme-ebpf-vienna/compare/v0.0.7...v0.0.8) (2025-12-16)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump @slidev/cli in the development-dependencies group ([#15](https://github.com/dklesev/slidev-theme-ebpf-vienna/issues/15)) ([a8437a9](https://github.com/dklesev/slidev-theme-ebpf-vienna/commit/a8437a9bf74e828ead7dd5b8ebb269961fb3cebb))
+* **deps:** bump @slidev/types in the slidev group ([#14](https://github.com/dklesev/slidev-theme-ebpf-vienna/issues/14)) ([b6b2f9a](https://github.com/dklesev/slidev-theme-ebpf-vienna/commit/b6b2f9a89fb5d6ba181c8fe9f5ca4e1e520543c9))
+* **deps:** bump actions/upload-artifact from 5 to 6 ([#16](https://github.com/dklesev/slidev-theme-ebpf-vienna/issues/16)) ([664868e](https://github.com/dklesev/slidev-theme-ebpf-vienna/commit/664868e0b71d05612edb322f2f9693664fb50e53))
+
 ## [0.0.7](https://github.com/dklesev/slidev-theme-ebpf-vienna/compare/v0.0.6...v0.0.7) (2025-11-30)
 
 
