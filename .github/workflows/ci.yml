@@ -36,14 +36,14 @@ jobs:
         run: pnpm run export
 
       - name: Upload build artifacts
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         with:
           name: slides-build
           path: dist/
           retention-days: 7
 
       - name: Upload PDF artifact
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         with:
           name: slides-pdf
           path: example-export.pdf
