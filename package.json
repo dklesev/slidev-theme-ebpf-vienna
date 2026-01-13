@@ -53,7 +53,7 @@
     "slidev-component-spotlight": "^1.1.0"
   },
   "devDependencies": {
-    "@slidev/cli": "^52.11.1",
+    "@slidev/cli": "^52.11.3",
     "playwright-chromium": "^1.57.0"
   },
   "slidev": {
