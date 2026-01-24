@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.11](https://github.com/dklesev/slidev-theme-ebpf-vienna/compare/v0.0.10...v0.0.11) (2026-01-19)
+
+
+### Miscellaneous
+
+* **deps:** bump @slidev/types in the slidev group ([#25](https://github.com/dklesev/slidev-theme-ebpf-vienna/issues/25)) ([61973a9](https://github.com/dklesev/slidev-theme-ebpf-vienna/commit/61973a9e48e40501736df608a0c0fe540871b8bd))
+
 ## [0.0.10](https://github.com/dklesev/slidev-theme-ebpf-vienna/compare/v0.0.9...v0.0.10) (2026-01-14)
 
 
