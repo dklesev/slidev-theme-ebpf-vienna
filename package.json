@@ -1,6 +1,6 @@
 {
   "name": "@dklesev/slidev-theme-ebpf-vienna",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "A Slidev theme for eBPF Vienna meetup presentations",
   "type": "module",
   "keywords": [
