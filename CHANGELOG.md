@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.12](https://github.com/dklesev/slidev-theme-ebpf-vienna/compare/v0.0.11...v0.0.12) (2026-01-31)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump playwright-chromium ([#27](https://github.com/dklesev/slidev-theme-ebpf-vienna/issues/27)) ([7c2a0df](https://github.com/dklesev/slidev-theme-ebpf-vienna/commit/7c2a0df62d5a879bdbe30d25d0c293941d622e3e))
+
 ## [0.0.11](https://github.com/dklesev/slidev-theme-ebpf-vienna/compare/v0.0.10...v0.0.11) (2026-01-19)
 
 
