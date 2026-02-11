@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.0.13](https://github.com/dklesev/slidev-theme-ebpf-vienna/compare/v0.0.12...v0.0.13) (2026-02-11)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump playwright-chromium ([#32](https://github.com/dklesev/slidev-theme-ebpf-vienna/issues/32)) ([4636d49](https://github.com/dklesev/slidev-theme-ebpf-vienna/commit/4636d49e1f96ab1c1b140f630ae4c58d00de09b0))
+* **deps-dev:** bump the development-dependencies group with 2 updates ([#30](https://github.com/dklesev/slidev-theme-ebpf-vienna/issues/30)) ([8e8b6c3](https://github.com/dklesev/slidev-theme-ebpf-vienna/commit/8e8b6c358f7e3e16da0550c19e1a38e0bb7fd4f5))
+* **deps:** bump @slidev/types in the slidev group ([#29](https://github.com/dklesev/slidev-theme-ebpf-vienna/issues/29)) ([d23575f](https://github.com/dklesev/slidev-theme-ebpf-vienna/commit/d23575f1493964b0acbaf8b5a0d1354660f57906))
+
 ## [0.0.12](https://github.com/dklesev/slidev-theme-ebpf-vienna/compare/v0.0.11...v0.0.12) (2026-01-31)
 
 
