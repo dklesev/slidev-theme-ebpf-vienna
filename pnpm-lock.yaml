@@ -20,10 +20,10 @@ importers:
     devDependencies:
       '@slidev/cli':
         specifier: ^52.11.5
-        version: 52.11.5(@nuxt/kit@3.21.0)(@types/markdown-it@14.1.2)(@types/node@22.19.7)(@vue/compiler-sfc@3.5.27)(markdown-it-async@2.2.0)(playwright-chromium@1.58.1)(postcss@8.5.6)(tsx@4.20.6)
+        version: 52.11.5(@nuxt/kit@3.21.0)(@types/markdown-it@14.1.2)(@types/node@22.19.7)(@vue/compiler-sfc@3.5.27)(markdown-it-async@2.2.0)(playwright-chromium@1.58.2)(postcss@8.5.6)(tsx@4.20.6)
       playwright-chromium:
-        specifier: ^1.58.1
-        version: 1.58.1
+        specifier: ^1.58.2
+        version: 1.58.2
 
 packages:
 
@@ -1695,8 +1695,8 @@ packages:
   get-port-please@3.2.0:
     resolution: {integrity: sha512-I9QVvBw5U/hw3RmWpYKRumUeaDgxTPd401x364rLmWBJcOQ753eov1eTgzDqRG9bqFIfDc7gfzcQEWrUri3o1A==}
 
-  get-tsconfig@4.13.1:
-    resolution: {integrity: sha512-EoY1N2xCn44xU6750Sx7OjOIT59FkmstNc3X6y5xpz7D5cBtZRe/3pSlTkDJgqsOk3WwZPkWfonhhUJfttQo3w==}
+  get-tsconfig@4.13.6:
+    resolution: {integrity: sha512-shZT/QMiSHc/YBLxxOkMtgSid5HFoauqCE3/exfsEcwg1WkeqjG+V40yBbBrsD+jW2HDXcs28xOfcbm2jI8Ddw==}
 
   giget@2.0.0:
     resolution: {integrity: sha512-L5bGsVkxJbJgdnwyuheIunkGatUF/zssUoxxjACCseZYAVbaqdh9Tsmmlkl8vYan09H7sbvKt4pS8GqKLBrEzA==}
@@ -2195,13 +2195,13 @@ packages:
   plantuml-encoder@1.4.0:
     resolution: {integrity: sha512-sxMwpDw/ySY1WB2CE3+IdMuEcWibJ72DDOsXLkSmEaSzwEUaYBT6DWgOfBiHGCux4q433X6+OEFWjlVqp7gL6g==}
 
-  playwright-chromium@1.58.1:
-    resolution: {integrity: sha512-IZEji6VuJWIW+oCLp+sUSH7FCDNVGQxJSBMgHXKA/S0S5Ykdek9TO//mVsiWx9GwiOrApOb1WSxUJgK6zo/cUw==}
+  playwright-chromium@1.58.2:
+    resolution: {integrity: sha512-SCoQ3hjBs7FfO46CoOtgAUg77BuYwCni1bzQgm47IUyLBTipnGkLxLnaUNRKXvPYO4hAyt8++Z6wVShVnhrzmw==}
     engines: {node: '>=18'}
     hasBin: true
 
-  playwright-core@1.58.1:
-    resolution: {integrity: sha512-bcWzOaTxcW+VOOGBCQgnaKToLJ65d6AqfLVKEWvexyS3AS6rbXl+xdpYRMGSRBClPvyj44njOWoxjNdL/H9UNg==}
+  playwright-core@1.58.2:
+    resolution: {integrity: sha512-yZkEtftgwS8CsfYo7nm0KE8jsvm6i/PTgVtB8DL726wNf6H2IMsDuxCpJj59KDaxCtSnrWan2AeDqM7JBaultg==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -3464,7 +3464,7 @@ snapshots:
 
   '@shikijs/vscode-textmate@10.0.2': {}
 
-  '@slidev/cli@52.11.5(@nuxt/kit@3.21.0)(@types/markdown-it@14.1.2)(@types/node@22.19.7)(@vue/compiler-sfc@3.5.27)(markdown-it-async@2.2.0)(playwright-chromium@1.58.1)(postcss@8.5.6)(tsx@4.20.6)':
+  '@slidev/cli@52.11.5(@nuxt/kit@3.21.0)(@types/markdown-it@14.1.2)(@types/node@22.19.7)(@vue/compiler-sfc@3.5.27)(markdown-it-async@2.2.0)(playwright-chromium@1.58.2)(postcss@8.5.6)(tsx@4.20.6)':
     dependencies:
       '@antfu/ni': 28.2.0
       '@antfu/utils': 9.3.0
@@ -3537,7 +3537,7 @@ snapshots:
       yaml: 2.8.2
       yargs: 18.0.0
     optionalDependencies:
-      playwright-chromium: 1.58.1
+      playwright-chromium: 1.58.2
     transitivePeerDependencies:
       - '@nuxt/kit'
       - '@svgr/core'
@@ -4757,7 +4757,7 @@ snapshots:
 
   get-port-please@3.2.0: {}
 
-  get-tsconfig@4.13.1:
+  get-tsconfig@4.13.6:
     dependencies:
       resolve-pkg-maps: 1.0.0
     optional: true
@@ -5406,11 +5406,11 @@ snapshots:
 
   plantuml-encoder@1.4.0: {}
 
-  playwright-chromium@1.58.1:
+  playwright-chromium@1.58.2:
     dependencies:
-      playwright-core: 1.58.1
+      playwright-core: 1.58.2
 
-  playwright-core@1.58.1: {}
+  playwright-core@1.58.2: {}
 
   points-on-curve@0.2.0: {}
 
@@ -5718,7 +5718,7 @@ snapshots:
   tsx@4.20.6:
     dependencies:
       esbuild: 0.25.12
-      get-tsconfig: 4.13.1
+      get-tsconfig: 4.13.6
     optionalDependencies:
       fsevents: 2.3.3
     optional: true
