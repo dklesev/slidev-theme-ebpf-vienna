@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.0.14](https://github.com/dklesev/slidev-theme-ebpf-vienna/compare/v0.0.13...v0.0.14) (2026-02-21)
+
+
+### Features
+
+* **layout:** add VHS layout and enhance footer visibility ([cf27abb](https://github.com/dklesev/slidev-theme-ebpf-vienna/commit/cf27abbded7eab35b96dc33704c8476a4de29232))
+
+
+### Miscellaneous
+
+* **deps-dev:** bump @slidev/cli in the development-dependencies group ([#34](https://github.com/dklesev/slidev-theme-ebpf-vienna/issues/34)) ([9a8af65](https://github.com/dklesev/slidev-theme-ebpf-vienna/commit/9a8af65b59f2353c5ed37b1eb1584aba747b26ca))
+* **deps:** bump @slidev/types in the slidev group ([#33](https://github.com/dklesev/slidev-theme-ebpf-vienna/issues/33)) ([f3fc1b3](https://github.com/dklesev/slidev-theme-ebpf-vienna/commit/f3fc1b34641fd20904eefc89b00103976828e0dc))
+
 ## [0.0.13](https://github.com/dklesev/slidev-theme-ebpf-vienna/compare/v0.0.12...v0.0.13) (2026-02-11)
 
 
