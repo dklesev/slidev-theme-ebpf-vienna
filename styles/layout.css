@@ -111,6 +111,7 @@ h1 {
   width: 2.1em;
   top: 2.1em;
   right: 2.5em;
+  filter: drop-shadow(1px 0 0 white) drop-shadow(-1px 0 0 white) drop-shadow(0 1px 0 white) drop-shadow(0 -1px 0 white);
 }
 
 /* Footer elements */
@@ -154,4 +155,71 @@ h1 {
   height: 20px;
   font-size: 0.54em;
   display: block;
+}
+
+/* ==================== */
+/* VHS LAYOUT           */
+/* ==================== */
+
+.slidev-layout.vhs {
+  background-color: #202134;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ==================== */
+/* DARK MODE STYLES     */
+/* ==================== */
+
+.dark .slidev-layout {
+  color: #d1d5db;
+}
+
+.dark h1 {
+  color: white;
+}
+
+.dark .transparent {
+  color: #9ca3af;
+  opacity: 1;
+}
+
+.dark .footer {
+  color: lightgray;
+}
+
+.dark .footer-right {
+  background: #4b5563;
+  color: white;
+}
+
+.dark .slidev-layout.cover {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+.dark .slidev-layout.cover h1 {
+  color: #ffffff;
+}
+
+.dark .slidev-layout.cover p {
+  color: #9ca3af;
+}
+
+.dark .slidev-layout.lead {
+  background-color: var(--ebpf-vienna-primary);
+  color: white;
+}
+
+.dark .slidev-layout.lead h1 {
+  color: white;
+}
+
+.dark .slidev-code pre,
+.dark .slidev-code .shiki,
+.dark pre.shiki,
+.dark .shiki {
+  background-color: #3a3a3a !important;
 }
