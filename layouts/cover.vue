@@ -3,7 +3,18 @@
     <div class="my-auto w-full cover-content">
       <slot />
     </div>
-    <img src="https://ebpf.foundation/wp-content/uploads/sites/9/2023/03/ebpf_logo_color_on_white-2-300x108.png" alt="logo"/> 
+    <img 
+      src="/ebpf-logo.png" 
+      class="logo-cover logo-light" 
+      alt="eBPF logo"
+    />
+    <img 
+      src="/ebpf-logo-dark.png" 
+      class="logo-cover logo-dark" 
+      alt="eBPF logo"
+    />
     <div class="vienna-text">VIENNA</div>
   </div>
 </template>
+
+

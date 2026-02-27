@@ -1,9 +1,15 @@
 <template>
   <SlidevSpotlight />
   <img 
-    v-if="!['cover', 'lead', 'empty'].includes($nav.currentLayout)" 
-    src="https://ebpf.foundation/wp-content/uploads/sites/9/2023/03/ebpf-icon-292x300.png" 
-    class="logo" 
+    v-if="!['cover', 'lead', 'empty', 'vhs'].includes($nav.currentLayout)" 
+    src="/ebpf-icon.png" 
+    class="logo logo-light" 
+    alt="eBPF logo"
+  />
+  <img 
+    v-if="!['cover', 'lead', 'empty', 'vhs'].includes($nav.currentLayout)" 
+    src="/ebpf-icon-dark.png" 
+    class="logo logo-dark" 
     alt="eBPF logo"
   />
 </template>

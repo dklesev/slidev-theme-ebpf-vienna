@@ -2,6 +2,7 @@
   /* Theme colors - can be overridden via themeConfig */
   --slidev-theme-primary: #00AEEF;
   --ebpf-vienna-primary: #00AEEF;
+  --ebpf-vienna-primary-dark: #0068ef24;
   --ebpf-vienna-bg-light: #FEFEF1;
   --ebpf-vienna-text-dark: #5F5F5F;
   --ebpf-vienna-text-light: #9F9F9F;
@@ -23,17 +24,17 @@
   @apply text-6xl leading-20;
 }
 
-.slidev-layout.cover h1 + p,
-.slidev-layout.intro h1 + p {
+.slidev-layout.cover h1+p,
+.slidev-layout.intro h1+p {
   @apply -mt-2 opacity-50 mb-4;
 }
 
-.slidev-layout.cover p + h2,
-.slidev-layout.cover ul + h2,
-.slidev-layout.cover table + h2,
-.slidev-layout.intro p + h2,
-.slidev-layout.intro ul + h2,
-.slidev-layout.intro table + h2 {
+.slidev-layout.cover p+h2,
+.slidev-layout.cover ul+h2,
+.slidev-layout.cover table+h2,
+.slidev-layout.intro p+h2,
+.slidev-layout.intro ul+h2,
+.slidev-layout.intro table+h2 {
   @apply mt-10;
 }
 
@@ -111,7 +112,13 @@ h1 {
   width: 2.1em;
   top: 2.1em;
   right: 2.5em;
-  filter: drop-shadow(1px 0 0 white) drop-shadow(-1px 0 0 white) drop-shadow(0 1px 0 white) drop-shadow(0 -1px 0 white);
+}
+
+.logo-vhs {
+  position: absolute;
+  width: 2em;
+  top: 1.8em;
+  right: 2.25em;
 }
 
 /* Footer elements */
@@ -163,7 +170,7 @@ h1 {
 
 .slidev-layout.vhs {
   background-color: #202134;
-  padding: 0;
+  padding: 1em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -172,6 +179,19 @@ h1 {
 /* ==================== */
 /* DARK MODE STYLES     */
 /* ==================== */
+
+/* Dark mode image switching */
+.logo-dark {
+  display: none;
+}
+
+.dark .logo-light {
+  display: none;
+}
+
+.dark .logo-dark {
+  display: initial;
+}
 
 .dark .slidev-layout {
   color: #d1d5db;
@@ -209,7 +229,7 @@ h1 {
 }
 
 .dark .slidev-layout.lead {
-  background-color: var(--ebpf-vienna-primary);
+  background-color: var(--ebpf-vienna-primary-dark);
   color: white;
 }
 
