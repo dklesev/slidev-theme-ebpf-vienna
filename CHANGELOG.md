@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.15](https://github.com/dklesev/slidev-theme-ebpf-vienna/compare/v0.0.14...v0.0.15) (2026-02-27)
+
+
+### Features
+
+* Add dark mode support for logos and icons, adjust demo video layout, and update example slides. ([0df38b8](https://github.com/dklesev/slidev-theme-ebpf-vienna/commit/0df38b8bd28303c0b73e337103e867b71b4ee652))
+
 ## [0.0.14](https://github.com/dklesev/slidev-theme-ebpf-vienna/compare/v0.0.13...v0.0.14) (2026-02-21)
 
 
