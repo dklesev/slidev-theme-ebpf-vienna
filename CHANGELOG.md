@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.16](https://github.com/dklesev/slidev-theme-ebpf-vienna/compare/v0.0.15...v0.0.16) (2026-03-02)
+
+
+### Features
+
+* **icons:** refactor logo imports to use variables for light and dark modes ([384b37f](https://github.com/dklesev/slidev-theme-ebpf-vienna/commit/384b37f921e9c6ff9e7a69abde42ae70488f402d))
+
 ## [0.0.15](https://github.com/dklesev/slidev-theme-ebpf-vienna/compare/v0.0.14...v0.0.15) (2026-02-27)
 
 
