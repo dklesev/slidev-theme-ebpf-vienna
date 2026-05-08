@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.0.18](https://github.com/dklesev/slidev-theme-ebpf-vienna/compare/v0.0.17...v0.0.18) (2026-05-08)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump @slidev/cli in the development-dependencies group ([#50](https://github.com/dklesev/slidev-theme-ebpf-vienna/issues/50)) ([e9dec3f](https://github.com/dklesev/slidev-theme-ebpf-vienna/commit/e9dec3ff611f8f2fbe30be40abb4e6c47606b0be))
+* **deps-dev:** bump the development-dependencies group with 2 updates ([#46](https://github.com/dklesev/slidev-theme-ebpf-vienna/issues/46)) ([951983e](https://github.com/dklesev/slidev-theme-ebpf-vienna/commit/951983ebf058db6d508dd7e98c30f5c04326968d))
+* **deps:** bump @slidev/types in the slidev group ([#45](https://github.com/dklesev/slidev-theme-ebpf-vienna/issues/45)) ([19f765b](https://github.com/dklesev/slidev-theme-ebpf-vienna/commit/19f765b66eb0a0dd6d803111621ffa2e8bec49c3))
+* **deps:** bump @slidev/types in the slidev group across 1 directory ([#49](https://github.com/dklesev/slidev-theme-ebpf-vienna/issues/49)) ([20f56d5](https://github.com/dklesev/slidev-theme-ebpf-vienna/commit/20f56d5cd2f4dadc9a8719bdf8cb9e012552f9f6))
+* **deps:** bump pnpm/action-setup from 4 to 5 ([#43](https://github.com/dklesev/slidev-theme-ebpf-vienna/issues/43)) ([4e96da2](https://github.com/dklesev/slidev-theme-ebpf-vienna/commit/4e96da2ef8ce6ee645475bb2596934eeed39a8ee))
+* **deps:** bump pnpm/action-setup from 5 to 6 ([#47](https://github.com/dklesev/slidev-theme-ebpf-vienna/issues/47)) ([e265dbc](https://github.com/dklesev/slidev-theme-ebpf-vienna/commit/e265dbc11712d1df129db2e96e5ff92c5adfd4ae))
+
 ## [0.0.17](https://github.com/dklesev/slidev-theme-ebpf-vienna/compare/v0.0.16...v0.0.17) (2026-03-10)
 
 
