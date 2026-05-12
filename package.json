@@ -53,8 +53,8 @@
     "slidev-component-spotlight": "^1.1.0"
   },
   "devDependencies": {
-    "@slidev/cli": "^52.15.1",
-    "playwright-chromium": "^1.59.1"
+    "@slidev/cli": "^52.15.2",
+    "playwright-chromium": "^1.60.0"
   },
   "slidev": {
     "colorSchema": "both",
